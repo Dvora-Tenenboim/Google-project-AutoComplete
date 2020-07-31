@@ -1,5 +1,5 @@
 from auto_complete_data import AutoCompleteData
-from revised_options import get_changed_char_options, get_add_or_remove_char_options
+from revised_options import get_changed_char_options, get_add_or_remove_char_options, is_enough
 
 COMPLETIONS_NUM = 5
 CHANGE = "change"
@@ -16,9 +16,6 @@ def read_sentence_from_file(file_path, num_line):
         sentences = my_file.read().split("\n")
         return sentences[num_line]
 
-
-def is_enough(set_options):
-    return len(set_options) >= COMPLETIONS_NUM
 
 
 def get_auto_complete_list(map_files, substring, list_file_id_file_line, less_score=0):
