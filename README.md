@@ -15,8 +15,8 @@ Otherwise will be returned sentences containing the sub-string with one of the c
 The results will be from sentences within given input text files.
 
 ## Libraries/ Technologies Used
-Python 3.8
+* Python 3.8
 
 ## Special Thanks
-Google mentors
-Elevation staff
+* Google mentors
+* Elevation staff
