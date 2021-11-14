@@ -17,6 +17,11 @@ The results will be from sentences within given input text files.
 ## Libraries/ Technologies Used
 * Python 3.8
 
+## Team Members
+* Dvora Tenenbaum
+* Miryam Diner
+* 
 ## Special Thanks
 * Google mentors
 * Elevation staff
+* Out team
